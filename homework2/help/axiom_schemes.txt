@@ -1,0 +1,13 @@
+a -> b -> a
+(a -> b) -> (a -> b -> c) -> (a -> c)
+a -> b -> a & b
+a & b -> a
+a & b -> b
+a -> a | b
+b -> a | b
+(a -> c) -> (b -> c) -> (a | b -> c)
+(a -> b) -> (a -> !b) -> !a
+!!a -> a
+@x a -> b
+a -> ?x b
+ax0 & @x (a -> ax1) -> a
