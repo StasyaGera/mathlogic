@@ -1,4 +1,7 @@
 # Hometasks on mathematical logic course
+## Description
+  [See here]( https://github.com/shd/logic2016/blob/master/homework.pdf )
+
 ## Invocation
 * __Hometask №1__
   
@@ -13,4 +16,3 @@
   
   `java -jar HW2.jar <input> <output>`
   
-[Link to the tasks]( https://github.com/shd/logic2016/blob/master/homework.pdf )
