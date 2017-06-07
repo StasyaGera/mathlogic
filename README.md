@@ -11,8 +11,14 @@
 
 * __Hometask №2__
 
-  Hopefully, you will need to download only the [HW2.jar](./artifacts/HW2.jar) file and invoke it with 
-  two arguments, same as in the previous case.
+  Download the [HW2.jar](./artifacts/HW2.jar) file and invoke it with two arguments, same as in the previous case.
   
   `java -jar HW2.jar <input> <output>`
   
+* __Hometask №3__
+  
+  Download the [HW3.jar](./artifacts/HW3.jar) file and invoke it with three arguments: mode (can be `file` or `number` to read input from file or from command line respectively), path to input file or input itself, path to output file.
+  
+  `java -jar HW3.jar file <input> <output>`
+  
+  `java -jar HW3.jar number <a> <output>`
