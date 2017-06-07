@@ -1,0 +1,9 @@
+a -> b -> c, a & b |- c
+a & b -> a
+a & b
+a
+a & b -> b
+b
+a -> b -> c
+b -> c
+c
