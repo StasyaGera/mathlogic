@@ -5,9 +5,9 @@
 ## Invocation
 * __Hometask №1__
   
-  Download all the files, compile them and then invoke Main.class with two arguments: paths to input and output files.
+  Download the [HW1.jar](./artifacts/HW1.jar) file and invoke it with two arguments: paths to input and output files.
   
-  `java Main <input> <output>`
+  `java -jar HW1.jar <input> <output>`
 
 * __Hometask №2__
 
