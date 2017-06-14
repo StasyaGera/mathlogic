@@ -18,11 +18,11 @@ class ReBuilder {
     private final Node alpha;
 
     private void print(String helpFile, SubstPair... substitutions) {
-//        try (BufferedReader help = new BufferedReader(
-//                new FileReader(Main.helpDir.resolve(helpFile).toAbsolutePath().toString()))) {
         try (BufferedReader help = new BufferedReader(
-                new InputStreamReader(getClass().getResourceAsStream(
-                        Main.helpDir.resolve(helpFile).toString())))) {
+                new FileReader(Main.helpDir.resolve(helpFile).toAbsolutePath().toString()))) {
+//        try (BufferedReader help = new BufferedReader(
+//                new InputStreamReader(getClass().getResourceAsStream(
+//                        Main.helpDir.resolve(helpFile).toString())))) {
 
                 String next;
             while ((next = help.readLine()) != null) {
