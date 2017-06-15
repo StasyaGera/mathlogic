@@ -44,9 +44,9 @@ public class Main {
         String replaced = "((a + 0') * (a + 0') = a * a + 0'' * a + 0')";
         String result = "(a + 0') * (a + 0') = a * a + 0'' * a + 0'";
 
-        try (BufferedReader proof = new BufferedReader(
-                new InputStreamReader(getClass().getResourceAsStream("final.proof")));
-//        try (BufferedReader proof = new BufferedReader(new FileReader("final.proof"));
+//        try (BufferedReader proof = new BufferedReader(
+//                new InputStreamReader(getClass().getResourceAsStream("final.proof")));
+        try (BufferedReader proof = new BufferedReader(new FileReader("final.proof"));
              PrintWriter writer = new PrintWriter(output)) {
             writer.println(header.replaceAll("a", a));
             String next;
